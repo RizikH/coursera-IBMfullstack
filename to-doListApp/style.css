@@ -1,0 +1,27 @@
+/* Styles the main container of the to-do list */
+.todo-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Removes default list styling for the to-do list */
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles each list item in the to-do list */
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Adds spacing for buttons in list items */
+button {
+    margin-left: 10px;
+}
